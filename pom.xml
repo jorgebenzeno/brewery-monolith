@@ -179,7 +179,7 @@
                                 <dockerFile>Dockerfile</dockerFile>
                                 <tags>
                                     <tag>latest</tag>
-                                    <tag>${project.version}</tag>
+                                    <tag>${parent.project.version}</tag>
                                 </tags>
                             </build>
                         </image>
